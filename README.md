@@ -88,7 +88,7 @@ LSI vector
 [(0, 0.3560677538145509), (1, 0.008283926460691204)]
 ```
 LSI plot on 2D map
-![LSI_2D](./img/gensim_LSI_2D_plot.png)
+<img src="./img/gensim_LSI_2D_plot.png" title="LSI_2D" width="400">
 
 Similarity using LSI vector
 
@@ -141,7 +141,7 @@ Input
 str = "巨大なマーライオンがセントーサ島にいた"
 ```
 Output (morphological analysis)
-![KNP_Juman](./img/KNP_Juman_output.png)
+<img src="./img/KNP_Juman_output.png" title="KNP_Juman" width="600">
 
 Output (dependency analysis)
 
@@ -218,8 +218,10 @@ data ={'Cuisine Type':['Chinese', 'Indian','Malay'],
       'Food':['Chicken Rice','Rojak','Satay'],
       'Price':[4,5,6]}
 ```
+
 dataframe in table format
-![DF_Table](./img/Pandas_df.png)
+
+<img src="./img/Pandas_df.png" title="DF_Table" width="200">
 
 Output (count)
 
@@ -291,10 +293,10 @@ Feature extraction (TF-IDF)
 ```
 
 Performance Evaluation
-![SK_Performance](./img/scikit-learn_confusion_matrix.png)
+<img src="./img/scikit-learn_confusion_matrix.png" title="SK_Performance" width="400">
 
 Confusion Matrix
-![SK_CFMatrix](./img/scikit-learn_performance.png)
+<img src="./img/scikit-learn_performance.png" title="SK_CFMatrix" width="400">
 
 Grid search
 
@@ -343,7 +345,8 @@ doc_dep = nlp(u'I like chicken rice and Laksa.')
 ```
 
 Output
-![spaCy_morph](./img/spacy_morphological.png)
+<img src="./img/spacy_morphological.png" title="spaCy_morph" width="500">
+
 
 ```
 []<---I[nsubj]--->[]
@@ -362,8 +365,8 @@ Output
 --------
 ```
 
-Output (Web spaCy base)
-![spaCy_dep](./img/spacy_dependency01.png)
+Output (spaCy Web tool)
+<img src="./img/spacy_dependency01.png" title="spaCy_dep">
 
 Input (Word Similarity)
 
@@ -372,7 +375,7 @@ tokens = nlp(u'Singapore Japan Tokyo')
 ```
 
 Output (Word Similarity using word embedding)
-![spaCy_word_sim](./img/spacy_word_similarity.png)
+<img src="./img/spacy_word_similarity.png" title="spaCy_word_sim" width="300">
 
 Input (Entity Recognition)
 
@@ -466,7 +469,7 @@ Output
 ```
 
 Output (Tree)
-![stanford](./img/stanford_parser.png)
+<img src="./img/stanford_parser.png" title="stanford">
 
 
 ## Environment
